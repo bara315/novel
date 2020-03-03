@@ -1,29 +1,85 @@
 <html>
+ <html lang ="ja">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <meta charset="shift_jis">
+    <title>Home</title><!--タブに出る文字-->
+    <link href="./style.css" rel="stylesheet" type="text/css"/>
 </head>
-<body>
-  <audio id="audio_01" controls autoplay>
-  <source src="https://drive.google.com/open?id=1m9BV7KGjq1rkMp40Ouy4BN0v9DeVw_uE" type="audio/mpeg">
-      Your browser does not support the audio element
-    </audio>
+  <body>
+    <div id="wrapper">
+      <div id="header-fixed">
+	<div id="header-bk">
+	  <header>
+	    <h1>Hinari Daido's page</h1>
+	    <h2>~ Hello world! ~</h2>
+	    <Div Align="right">
+	      <a href="mailto:g1620520@is.ocha.ac.jp?subject=from Hinari Daido's page">mail:g1620520@is.ocha.ac.jp</a>
+	    </Div>	    
+	  </header>
 
-    <script>
-    var my_audio_01 = document.getElementById("audio_01");
+	</div>
+      </div>
+      <div id="body-bk">         
+        <div id="body">  <nav>
+	    <ul>
+	      <li><a href="./index.html">Home</a></li>
+	      <li><a href="./profile.html">profile</a></li>
+	      <li><a href="./hobby.html">hobby</a></li>
+	    </ul>
+	  </nav>
+    <section>
+        <audio id="audio_01" controls autoplay>
+           <source src="https://drive.google.com/open?id=1m9BV7KGjq1rkMp40Ouy4BN0v9DeVw_uE" type="audio/mpeg">
+            Your browser does not support the audio element
+        </audio>
 
-    my_audio_01.play()
+        <script>
+          var my_audio_01 = document.getElementById("audio_01");
 
-    </script>
-      <audio id="audio_02" controls autoplay>
-  <source src="all_4.mp3" type="audio/mpeg">
-      Your browser does not support the audio element
-    </audio>
+          my_audio_01.play()
 
-    <script>
-    var my_audio_02 = document.getElementById("audio_02");
+        </script>
+      
+        <audio id="audio_02" controls autoplay>
+          <source src="all_4.mp3" type="audio/mpeg">
+          Your browser does not support the audio element
+        </audio>
 
-    my_audio_01.play()
+        <script>
+          var my_audio_02 = document.getElementById("audio_02");
 
-    </script>
+         my_audio_01.play()
+
+        </script>
+    </section>
+	  <section>
+	    <article>
+	      <Div align="center">
+		<div class="frame">
+		  <img src="./imgs/mayfes.jpg" style =" display:inline;"width="200px"/>
+		</div>
+		<h1>Hinari Daido</h1>
+		<p>
+		  <a href="https://sites.google.com/view/bara16/cast">
+		    2016<br/>
+		    卒公<br />
+		    <br/>
+		    <a href="https://sites.google.com/view/bara16">
+		      サイト</a>
+		</p><br/>
+	      </div>
+	    </article>
+	  </section>
+	</div>
+      </div>
+
+      <div id="footer-fixed">
+	<div id="footer-bk">
+	  <footer>
+	    <p><Div Align="right">&copy;2016 bara. All Rights Reserved.</p></Div>
+	  </footer>
+	</div>
+      </div>
+    </div>
   </body>
-  </html>
+</html>
