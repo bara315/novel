@@ -354,7 +354,12 @@ article p{
     margin-top:20px;
     margin-bottom:20px;
 }
-
+.boxinline {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+}
 .boxhint{
     background-color:peachpuff;
     width:100%;
